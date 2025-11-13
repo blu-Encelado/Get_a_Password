@@ -7,7 +7,8 @@ def main():
 
     word = comand[1]
     number = comand[2]
-        
+    print(number)
+
     for letter in word:
         if not letter.isalpha():
             raise ValueError("Please use a word with only letters as first argument")
