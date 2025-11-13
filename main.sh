@@ -1,1 +1,1 @@
-python3 src/main.py carta 5
+python3 src/main.py 
