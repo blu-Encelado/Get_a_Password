@@ -24,9 +24,23 @@ def main():
             break
             
         print("Please use one number as second argument, try again")
+
+    while True:
         
-    print(f"the arguments are: {read_word} and {read_num}")
-    print("==============================================")
+        print("Select the type of password you need: complex(Ab&7), alphabetical(Ab), numerical(123)")
+        type_of = input()
+
+        if type_of == "complex":
+            break
+        elif type_of == "alphabetical":
+            break
+        elif type_of == "numerical":
+            break
+            
+        print("Please use one of the three options only")
+        
+    print(f"the arguments are: {read_word} and {read_num}. the password must be {type_of}")
+    print("==============================================================================")
 
 if __name__ == "__main__":
     main()
