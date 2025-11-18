@@ -38,7 +38,7 @@ def get_alphabetical(num):
     index = 0
     while index <= int(num):
 
-        password += random_element(ALPH)
+        password += random_element(0, ALPH)
 
         index += 1
     return password
