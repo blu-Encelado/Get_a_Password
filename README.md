@@ -1,2 +1,2 @@
 # Get_a_Password
-small program that generates complex passwords from words and numbers
+small program that creates passwords of desired complexity and length
