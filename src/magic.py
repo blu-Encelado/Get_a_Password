@@ -72,7 +72,7 @@ def get_alphanumerical(num):
 def random_element(type = 0, array = None):
     is_cap = False
     if type == 0:
-        is_cap = int(random.randint(0, 9)) % 2 == 0
+        is_cap = int(random.randint(0, 10)) % 2 == 0
             
     first = 0
     last = len(array)
