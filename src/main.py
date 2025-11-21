@@ -7,7 +7,7 @@ def main():
     while True:
         
         print("write a number (digits only)")
-        read_num = input()
+        read_num = input().strip()
 
         if read_num.isnumeric():
             break
@@ -17,7 +17,7 @@ def main():
     while True:
         
         print("Select the type of password you need: complex(Ab&7), alphabetical(Ab), numerical(123), or alphanumerical(Ab12)")
-        type_of = input()
+        type_of = input().strip()
 
         if type_of == "complex":
             break
